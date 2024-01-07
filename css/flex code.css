@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.sec-padd-100{
+  padding:  50px 0;
+}
+.upliner{
+  font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px;
+color: #2D2D2D;
+}
+h1{
+  color: #2D2D2D;
+  font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+h2{
+  font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 42px;
+color: #2D2D2D;
+}
+
+.sec-padd-50{
+  padding: 50px 0;
+}
+h3{
+  font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 42px;
+color: #2D2D2D;
+}
+
+.cta{
+  padding: 15px 40px;
+  background-color: #2D2D2D;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.para{
+  font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+color: rgba(45, 45, 45, .7);
+}
+.cta-2{
+  padding: 12px 25px !important;
+}
+/* .bg-gray{
+  background: #95a5a6;
+} */
+.line{
+  height: 2px;
+  background: #000;
+  display: inline-block;
+  width: 10%;
+}
+
+.cta:hover{
+  background: #cdb5b5;
+  color: #2D2D2D !important;
+}
+
+@media (min-width: 576px) {
+ 
+}
+@media (min-width: 768px) {
+  .sec-padd-100{
+    padding: 80px 0;
+  }
+}
+@media (min-width: 992px) {
+  .sec-padd-100{
+    padding: 100px 0;
+  }
+  .upliner{
+    font-size: 20px;
+  }
+  h1{
+
+    font-size: 68px;
+
+  }
+  h2{
+    font-size: 32px;
+  }
+  
+  .sec-padd-50{
+    padding: 50px 0;
+  }
+  h3{
+    font-size: 28px;
+  }
+  
+  .cta{
+    font-size: 18px;
+   
+  }
+  
+  .para{
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  
+}
