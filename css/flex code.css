@@ -49,6 +49,7 @@ line-height: 42px;
 color: #2D2D2D;
 }
 
+
 .cta{
   padding: 15px 40px;
   background-color: #2D2D2D;
@@ -77,7 +78,9 @@ color: rgba(45, 45, 45, .7);
   display: inline-block;
   width: 10%;
 }
-
+.project-img{
+  height: 250px;
+}
 .cta:hover{
   background: #cdb5b5;
   color: #2D2D2D !important;
@@ -89,6 +92,9 @@ color: rgba(45, 45, 45, .7);
 @media (min-width: 768px) {
   .sec-padd-100{
     padding: 80px 0;
+  }
+  .project-img{
+    height: 200px;
   }
 }
 @media (min-width: 992px) {
@@ -122,7 +128,12 @@ color: rgba(45, 45, 45, .7);
   .para{
     font-size: 18px;
   }
+  .project-img{
+    height: 246px;
+  }
 }
 @media (min-width: 1200px) {
-  
+  .project-img{
+    height: 296px;
+  }
 }
